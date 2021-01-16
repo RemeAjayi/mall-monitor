@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+  }
+
+h2 {
+    margin-top: 0;
+  }
+  
+p {
+    font-weight: bold;
+    color: #313030;
+  }
+
