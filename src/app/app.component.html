@@ -19,32 +19,75 @@
   </div>
 </nav>
 
-<!--Live Surveillance-->
-<div class="container">
-  <h1>My Dashboard</h1>
-    <div class="row justify-content-md-center">
-      <div class="col">
-        Surveillance Camera 1
-      </div>
-      <div class="col">
-        Surveillance Camera 2
-      </div>
+
+<div class="container-fluid">
+  <div class="row main">
+    <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+      <nav>
+        <div class="d-flex justify-content-center flex-column my-5">
+           <img src="../assets/img/image_placeholder_2.png" class="rounded-circle ml-4" width="75px">
+           <p class="ml-3 p-2">User 1425</p>
+        </div>
+        <ul class="nav d-flex flex-column py-2">
+          <li class="nav-item ml-3 p-2 ">My Dashboard</li>
+          <li class="nav-item ml-3 p-2">My Stores</li>
+          <li class="nav-item ml-3 p-2">Settings</li>
+        </ul>
+      </nav>
     </div>
-    <div class="row justify-content-around">
-      <div class="col">
-        Store Metrics
+    <div class="col-12 col-md-8 col-xl-8 py-md-3 pl-md-5 main-area bg-pink">
+      <!--Live Surveillance-->
+<div class="container bg-white">
+  <div class="py-3"><span style="font-size: 18px;"><b>My Dashboard </b></span><span> - Waterloo Store</span></div> 
+  <div id="views">
+   <div class="row">
+     <div class="col-6">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="../assets/img/beautiful-people-3954533_640.jpg" height="140px" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Main Entrance</p>
+        </div>
       </div>
-      <div class="col">
-        Model Metrics
+     </div>
+     <div class="col-6">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="../assets/img/supermarket-435452_640.jpg" height="140px" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Side Door</p>
+        </div>
+      </div>
+     </div>
+   </div>
+  </div> 
+</div>
+
+<div class="container bg-white">
+  <div style="font-size: 18px;"><b>My Dashboard</b></div> 
+    <div class="table">
+      <div class="row justify-content-md-center striped">
+        <div class="col">
+          Surveillance Camera 1
+        </div>
+        <div class="col">
+          Surveillance Camera 2
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col">
+          Store Metrics
+        </div>
+        <div class="col">
+          Model Metrics
+        </div>
       </div>
     </div>
 </div>
 
 <!--The table of cameras-->
-<div class="container">
-  <h1>My Dashboard</h1>
+<div class="container bg-white">
+  <div style="font-size: 18px;"><b>My Dashboard</b></div> 
   <div class="table">
-    <div class="row align-items-start">
+    <div class="row align-items-start striped">
       <div class="col">
         Camera Name
       </div>
@@ -65,7 +108,8 @@
       <div class="col">
         11/12/2020 15:12:46
       </div>
-      <div class="w-100"></div>
+    </div>
+     <div class="row striped">
       <div class="col">
         Cam2
       </div>
@@ -75,8 +119,14 @@
       <div class="col">
         01/15/2021 09:52:14
       </div>
+     </div>
+    </div>
+  </div>
+
+<router-outlet></router-outlet>
+    </div>
+    <div class="col-12 col-md-1 col-xl-2 extra bg-pink">
+
     </div>
   </div>
 </div>
-
-<router-outlet></router-outlet>

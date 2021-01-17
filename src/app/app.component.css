@@ -1,5 +1,5 @@
 .container {
-    background: #ecd7d7;
+    /* background: #FFBFD6; */
     padding: 30px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
@@ -20,6 +20,25 @@
     font-style: normal;
     font-size: medium;
     font-weight: lighter;
-    font-family:Arial, Helvetica, sans-serif;
-    box-shadow:0px 1px 2px black;
+    font-family:'Open Sans' sans-serif;
+    /* box-shadow:0px 1px 2px black; */
+  }
+  .bd-sidebar{
+    border-right: 1px solid rgba(0,0,0,.1);
+  }
+  .main{
+    /* height: calc(100vh - 60px); */
+    border-bottom: none !important;
+  }
+  .bg-white{
+    background-color: white !important;
+  }
+  .bg-pink{
+    background-color:#ffe9ec;
+  }
+  .striped{
+    background-color: #efefef;
+  }
+  .table .row{
+    padding: 15px 5px!important;
   }
