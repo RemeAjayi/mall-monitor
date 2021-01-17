@@ -42,3 +42,18 @@
   .table .row{
     padding: 15px 5px!important;
   }
+
+  .metric-icon{
+    width: 50px !important;
+    display: inline-block !important;
+  }
+
+  .metric-title{
+    width: 238px !important;
+    display: inline-block !important;
+  }
+
+  .metric-quant{
+    width: 20px !important;
+    display: inline-block !important;
+  }
