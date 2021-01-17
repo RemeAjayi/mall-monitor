@@ -37,21 +37,28 @@
     </div>
     <div class="col-12 col-md-8 col-xl-8 py-md-3 pl-md-5 main-area bg-pink">
       <!--Live Surveillance-->
-<div class="container bg-white">
+<div class="container-fluid" bg-white>
   <div class="py-3"><span style="font-size: 18px;"><b>My Dashboard </b></span><span> - Waterloo Store</span></div> 
   <div id="views">
    <div class="row">
      <div class="col-6">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="../assets/img/beautiful-people-3954533_640.jpg" height="140px" alt="Card image cap">
+      <div class="card" style="width: 475px;">
+        <video width="475" height="300" autoplay controls loop muted>
+          <source src="../assets/vid/shop.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag. 
+        </video>
         <div class="card-body">
           <p class="card-text">Main Entrance</p>
         </div>
       </div>
      </div>
      <div class="col-6">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="../assets/img/supermarket-435452_640.jpg" height="140px" alt="Card image cap">
+      <div class="card" style="width: 475px;">
+        <video width="475" height="300" autoplay controls loop muted>
+          <source src="../assets/vid/shop.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
         <div class="card-body">
           <p class="card-text">Side Door</p>
         </div>
@@ -61,65 +68,145 @@
   </div> 
 </div>
 
-<div class="container bg-white">
-  <div style="font-size: 18px;"><b>My Dashboard</b></div> 
+<div class="container-fluid bg-white">
     <div class="table">
       <div class="row justify-content-md-center striped">
-        <div class="col">
-          Surveillance Camera 1
-        </div>
-        <div class="col">
-          Surveillance Camera 2
-        </div>
+        <div class="col">Store Metrics</div>
+        <div class="col">Model Metrics</div>
       </div>
-      <div class="row justify-content-around">
+      <div class="row justify-content-md-center">
         <div class="col">
-          Store Metrics
+          <div class="row">
+            <span style="font-size: 26px">
+              <i class="fas fa-users"></i>
+            </span>
+            <div class="column">
+              <span style="font-size: 26px">Current Density :</span>
+            </div>
+            <h3>5</h3>
+          </div> 
+          <div class="row">
+            <span style="font-size: 26px">
+              <i class="fas fa-percentage"></i>
+            </span>
+            <div class="column">
+              <span style="font-size: 26px">Current Capacity :</span>
+            </div>
+            <h3>25%</h3>
+          </div> 
+          <div class="row">
+            <span style="font-size: 26px">
+              <i class="fas fa-user-check"></i>
+            </span>
+            <div class="column">
+              <span style="font-size: 26px">Allowed Max Density :</span>
+            </div>
+            <h3>10</h3>
+          </div> 
+          <div class="row">
+            <span style="font-size: 26px">
+              <i class="fas fa-percentage"></i>
+            </span>
+            <div class="column">
+              <span style="font-size: 26px">Allowed Max Capacity :</span>
+            </div>
+            <h3>50%</h3>
+          </div> 
         </div>
         <div class="col">
-          Model Metrics
+          <div class="row">
+            <span style="font-size: 26px">
+              <i class="fas fa-eye"></i>
+            </span>
+            <div class="column">
+              <span style="font-size: 26px">Matched People :</span>
+            </div>
+            <h3>1</h3>
+          </div> 
+          <div class="row">
+            <span style="font-size: 26px">
+              <i class="fas fa-suitcase"></i>
+            </span>
+            <div class="column">
+              <span style="font-size: 26px">Detected Accessories  :</span>
+            </div>
+            <h3>2</h3>
+          </div> 
+          <div class="row">
+            <span style="font-size: 26px">
+              <i class="fas fa-chart-line"></i>
+            </span>
+            <div class="column">
+              <span style="font-size: 26px">Mean Confidence :</span>
+            </div>
+            <h3>76%</h3>
+          </div> 
+          <div class="row">
+            <span style="font-size: 26px">
+              <i class="fas fa-trophy"></i>
+            </span>
+            <div class="column">
+              <span style="font-size: 26px">Maximum Confidence:</span>
+            </div>
+            <h3>98%</h3>
+          </div> 
         </div>
       </div>
     </div>
 </div>
 
-<!--The table of cameras-->
-<div class="container bg-white">
-  <div style="font-size: 18px;"><b>My Dashboard</b></div> 
-  <div class="table">
-    <div class="row align-items-start striped">
-      <div class="col">
-        Camera Name
-      </div>
-      <div class="col">
-        Active?
-      </div>
-      <div class="col">
-        Installation Date
-      </div>
-    </div>
+<!--Store Details-->
+<div class="container-fluid bg-white">
+  <div style="font-size: 26px;"><b>Store Details</b></div> 
+  <div>
     <div class="row">
-      <div class="col">
-        Cam1
+      <div class="column col-6 justify-content-md-around">
+        <span style="font-size: 20px; font-weight: 600">Store Name</span>
+        <textarea>Waterloo Store</textarea>
       </div>
-      <div class="col">
-        YES
-      </div>
-      <div class="col">
-        11/12/2020 15:12:46
+      <div class="column col-6 justify-content-md-">
+        <span style="font-size: 20px; font-weight: 600">Store Location</span>
+        <textarea style="padding-top: 10px; padding-block: 10px;block-size: 60px;">851 Queen St XXXXX Waterloo, ON</textarea>
       </div>
     </div>
-     <div class="row striped">
-      <div class="col">
-        Cam2
+  </div>
+  <!--table of cameras-->
+  <div class="container bg-white">
+    <div class="table">
+      <div class="row align-items-start striped">
+        <div class="col-sm">
+          <span style="font-size: 20px; font-weight: 600">Camera Name</span>
+        </div>
+        <div class="col-sm">
+          <span style="font-size: 20px; font-weight: 600">Active?</span>
+        </div>
+        <div class="col-sm">
+          <span style="font-size: 20px; font-weight: 600">Installation Date</span>
+        </div>
       </div>
-      <div class="col">
-        YES
+      <div class="row">
+        <div class="col">
+          Cam1
+        </div>
+        <div class="col">
+          YES
+        </div>
+        <div class="col">
+          11/12/2020 15:12:46
+        </div>
       </div>
-      <div class="col">
-        01/15/2021 09:52:14
+      <div class="row striped">
+        <div class="col">
+          Cam2
+        </div>
+        <div class="col">
+          YES
+        </div>
+        <div class="col">
+          01/15/2021 09:52:14
+        </div>
       </div>
-     </div>
+      </div>
     </div>
   </div>
 
